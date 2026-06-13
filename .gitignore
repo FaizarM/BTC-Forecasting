@@ -1,0 +1,91 @@
+# ==============================================
+# Python
+# ==============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================
+# Virtual Environments
+# ==============================================
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# ==============================================
+# Jupyter Notebook
+# ==============================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ==============================================
+# IDE / Editors
+# ==============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==============================================
+# ML / DL artifacts
+# ==============================================
+# Model files (.keras) and scaler_params.json ARE committed on purpose.
+# Only ignore large raw data and training run logs.
+
+# Large datasets
+*.csv
+*.csv.gz
+*.parquet
+data/raw/
+data/interim/
+
+# Training outputs / experiment logs
+logs/
+runs/
+tensorboard/
+wandb/
+mlruns/
+checkpoints/
+
+# ==============================================
+# Credentials & Secrets
+# ==============================================
+.env.local
+.env.production
+credentials/
+secrets/
+*.pem
+*.key
+
+# ==============================================
+# OS
+# ==============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

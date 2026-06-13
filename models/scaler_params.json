@@ -1,0 +1,39 @@
+{
+  "feature_columns": [
+    "Close",
+    "Volume USDT",
+    "RSI",
+    "ATR",
+    "Close_Rolling_Mean_24",
+    "Close_Rolling_Std_24"
+  ],
+  "target_col": "Close",
+  "window_size": 48,
+  "horizon": 24,
+  "scalers": {
+    "Close": {
+      "min": 3172.05,
+      "max": 68633.69
+    },
+    "Volume USDT": {
+      "min": 0.0,
+      "max": 1514464825.2185037
+    },
+    "RSI": {
+      "min": 35.178834150766306,
+      "max": 64.33650355472459
+    },
+    "ATR": {
+      "min": 17.436265687318684,
+      "max": 1004.5314074329413
+    },
+    "Close_Rolling_Mean_24": {
+      "min": 3212.5458333333336,
+      "max": 67566.14333333333
+    },
+    "Close_Rolling_Std_24": {
+      "min": 4.474908604005059,
+      "max": 3493.4577866880923
+    }
+  }
+}
